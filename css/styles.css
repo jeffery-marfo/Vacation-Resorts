@@ -54,7 +54,7 @@
 }
 
 .hero {
-  background-image: url(..//Images/img3.jpg);
+  background-image: url(..//Images/Hero.jpg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -151,6 +151,30 @@
 .feature-text h2 {
   font-size: 2rem;
 }
+.section-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 10rem;
+  /* align-items: center; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem 10rem;
+  column-gap: 7rem;
+  align-items: center; */
+}
+
+.about-us {
+  justify-content: left;
+}
+.section-title p {
+  width: 80%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
 /* 
 #navbar {
   display: flex;
