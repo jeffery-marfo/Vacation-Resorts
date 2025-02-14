@@ -3,15 +3,21 @@
   padding: 0;
 }
 .logo {
-  font-family: "Montserrat";
-  font-size: 22px;
+  margin-right: 2rem;
+}
+
+.logo img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 30px;
+  align-items: center;
+  padding: 10px;
   position: fixed;
   top: 0px;
   left: 0;
